@@ -1,0 +1,58 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Archi Labs/Lab 9 - MIPS Processor/testbench_isim_beh.exe -prj C:/Archi Labs/Lab 9 - MIPS Processor/testbench_beh.prj work.testbench 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/SL2.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/signext.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/regfile.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/mypack.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/mux2.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/maindec.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/Flopr.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/DataPathPackage.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/aludec.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/alu.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/adder.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/dataPath.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/controller.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/mips_student.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/imem.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/dmem.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/top_student.vhd" into library work
+Parsing VHDL file "C:/Archi Labs/Lab 9 - MIPS Processor/test.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_signed
+Compiling package numeric_std
+Compiling package mypack
+Compiling package textio
+Compiling package std_logic_textio
+Compiling package datapathpackage
+Compiling architecture maindeclogic of entity maindec [maindec_default]
+Compiling architecture behave of entity aludec [aludec_default]
+Compiling architecture behavioral of entity controller [controller_default]
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity Flopr [\Flopr(32)\]
+Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture behavioral of entity SL2 [sl2_default]
+Compiling architecture muxarch of entity mux2 [\mux2(32)\]
+Compiling architecture behave of entity regfile [regfile_default]
+Compiling architecture muxarch of entity mux2 [\mux2(5)\]
+Compiling architecture behavioral of entity signext [signext_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture struct of entity datapath [datapath_default]
+Compiling architecture behavioral of entity mips [mips_default]
+Compiling architecture behave of entity dmem [dmem_default]
+Compiling architecture behave of entity imem [imem_default]
+Compiling architecture struct of entity top [top_default]
+Compiling architecture test of entity testbench
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 43 VHDL Units
+Built simulation executable C:/Archi Labs/Lab 9 - MIPS Processor/testbench_isim_beh.exe
+Fuse Memory Usage: 39884 KB
+Fuse CPU Usage: 593 ms
